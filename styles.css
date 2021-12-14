@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: #fb79ff;
+}
+
+main {
+    background-color: rgb(29, 194, 216);
+    min-height: calc(100vh - 200px);
+}
+
+footer {
+    background-color: rgb(100, 237, 207);
+    text-align: center;
+    height: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(100, 205, 237);
+    border-radius: 10px;
+}
+
+.horario {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.horario p {
+    margin-left: 10px;
+}
+
+#container {
+    width: 100%;
+}
